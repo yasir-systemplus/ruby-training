@@ -18,6 +18,5 @@ persons = ["Bilal", "AB", "BQ"]
 #     puts person.upcase
 # end
 
-persons.each_entry { |person| 
-    puts person.upcase
-}    
+persons.each_entry { |person| puts person.upcase }    
+
