@@ -2,12 +2,6 @@
 #           Task 11           |
 #------------------------------
 
-
-
-
-
-
-
 def possible_bonus(first, second)
     i = 1
 
