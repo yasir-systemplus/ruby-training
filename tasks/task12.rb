@@ -20,6 +20,6 @@ def convertBinary(string)
     
 end
 
-puts convertBinary("excLAIM") #➞ "0100000"
+puts convertBinary("dsfnas") #➞ "0100000"
 puts convertBinary("house") #➞ "01110"
 puts convertBinary("moon") #➞ "0111"
