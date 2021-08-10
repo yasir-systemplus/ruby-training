@@ -28,7 +28,7 @@ def shiritori(words)
         next_index += 1 
     end
 
-    return "valid"
+    "valid"
 end
 
 

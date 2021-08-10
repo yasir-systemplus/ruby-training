@@ -1,11 +1,11 @@
 #------------------------------
-#           Task 25           |
+#           Task 24           |
 #------------------------------
 
 def hackerSpeak(str)
     str = str.downcase
 
-    map = {
+    replacers = {
         "a"=> 4,
         "e"=> 3, 
         "i"=> 1, 
@@ -17,13 +17,14 @@ def hackerSpeak(str)
     str_arr = str.split("")
     
     str_arr.map! do |el|
-        if map.include?(el)
-            map[el]
+        if replacers.include?(el)
+            replacers[el]
         else
             el
         end
     end
-    return str_arr.join("")
+    
+    str_arr.join("")
 end
 
 print hackerSpeak("javascript is cool") #➞ "j4v45cr1pt 15 c00l"

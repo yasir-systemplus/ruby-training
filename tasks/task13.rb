@@ -15,9 +15,7 @@ def sum_two_smallest_nums(numbers_array)
 
     second_min = numbers_array.min
 
-    return first_min + second_min
-
-
+    first_min + second_min
 end
 
 puts sum_two_smallest_nums([2, 9, 6, -1, 3.4]) #8 

@@ -6,9 +6,16 @@
 def parityAnalysis(number)
 
     sum = number.to_s.split("").inject(0) { |sum, num| sum + num.to_i}
-    # puts sum % 2 == 0 
-    # puts number % 2 == 0
-    return (sum % 2 == 0 && number % 2 == 0)  
+    
+    if number.even? && sum.even?
+        return true
+    end
+
+    if number.odd? && sum.odd?
+        return true
+    end
+
+    false
 end
 
 puts parityAnalysis(243) #➞ true

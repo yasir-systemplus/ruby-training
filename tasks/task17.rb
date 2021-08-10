@@ -17,7 +17,6 @@ def likeOrDislike(actions_list)
             return actions_list[current_index]
         end
     end
-
 end
 
 

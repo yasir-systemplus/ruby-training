@@ -11,8 +11,7 @@ def intWithinBounds(num, lower, upper)
 
     range  = (lower .. upper)
 
-    return range.include?(num)
-
+    range.include?(num)
 end
 
 puts intWithinBounds(3, 1, 9) #➞ true

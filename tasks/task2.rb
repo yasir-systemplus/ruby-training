@@ -16,7 +16,7 @@ def flip_end_chars (string)
     last_char = char_list.pop
     first_char = char_list.shift
 
-    return last_char + char_list.join() + first_char
+    last_char + char_list.join() + first_char
 end
 
 puts flip_end_chars("Yasir")

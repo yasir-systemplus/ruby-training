@@ -19,7 +19,8 @@ def XO (string)
             count["O"] += 1
         end
     end
-    return count["X"] == count["O"] 
+    
+    count["X"] == count["O"] 
 end
 
 puts XO "qweqdws"

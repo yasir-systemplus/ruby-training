@@ -16,10 +16,10 @@ def convertBinary(string)
         new_string += ('a'..'m').include?(char) ? "0" : "1"
         count += 1
      end
-    return new_string
-    
+     
+    new_string
 end
 
-puts convertBinary("excLAIM") #➞ "0100000"
+puts convertBinary("dsfnas") #➞ "0100000"
 puts convertBinary("house") #➞ "01110"
 puts convertBinary("moon") #➞ "0111"

@@ -1,4 +1,4 @@
-blanks = ["verb", "adjective", "adjvective", "noun"]
+blanks_types = ["verb", "adjective", "adjvective", "noun"]
 
 puts "--------------------------"
 puts "|     Rubby Blanks       |"
@@ -6,7 +6,7 @@ puts "--------------------------"
 
 answers = []
 
-blanks.each do |part| 
+blanks_types.each do |part| 
     print "Enter #{part}: "
     answer = gets.chomp
     answers.push(answer)

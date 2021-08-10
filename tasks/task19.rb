@@ -1,5 +1,5 @@
 #------------------------------
-#           Task 8            |
+#           Task 19           |
 #------------------------------
 
 def oddishOrEvenish(number)
@@ -7,7 +7,7 @@ def oddishOrEvenish(number)
 
     sum = number.inject(0) { |sum, current| sum+current } 
 
-    return sum.even? ? "Evenish" : "Oddish"
+    sum.even? ? "Evenish" : "Oddish"
 end
 
 puts oddishOrEvenish(43) #➞ "Oddish"

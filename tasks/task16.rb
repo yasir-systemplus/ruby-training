@@ -10,7 +10,7 @@ def dnaToRna(dna)
         "C" => "G", 
     }
 
-    return dna.split("").map { |base| map[base] }
+    dna.split("").map { |base| map[base] }
 end
 
 
