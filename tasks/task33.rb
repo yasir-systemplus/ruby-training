@@ -15,7 +15,7 @@ def sum_of_evens(matrix)
         end
     end
 
-    return sum 
+    sum 
 end
 
 puts sum_of_evens([

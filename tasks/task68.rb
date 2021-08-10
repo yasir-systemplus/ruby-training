@@ -6,7 +6,7 @@
 #return a sorted array containing only duplicate numbers from the given nums array.
 
 def duplicate_nums(numbers)
-    return (numbers.find_all{ |e| numbers.count(e) > 1 }.uniq!).sort
+    (numbers.find_all{ |e| numbers.count(e) > 1 }.uniq!).sort
 end
 
 

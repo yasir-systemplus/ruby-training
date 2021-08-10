@@ -43,7 +43,7 @@ def correct_sentences(sentences)
 			
 	answer = answer + "."
     
-    return answer
+    answer
 end
 
 

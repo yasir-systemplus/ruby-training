@@ -13,7 +13,7 @@ def slice_sum(numbers, limit)
         counter += 1
     end
 
-    return sum
+    sum
 end
 
 puts slice_sum([1, 3, 2], 2) #➞ 4

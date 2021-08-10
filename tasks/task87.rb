@@ -7,7 +7,7 @@
 #Pass the block through limited space by taking transpose. 
 
 def pass_block(items)
-    return items.transpose
+    items.transpose
 end
 
 print pass_block([

@@ -9,7 +9,7 @@ def normalize(sentence)
         sentence += "!"
     end
 
-    return sentence
+    sentence
 end
 
 

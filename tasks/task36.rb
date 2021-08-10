@@ -13,12 +13,12 @@ def happy_year(date)
         next_date += 1
     end
 
-    return next_date
+    next_date
 end
 
 def isSame(number)
     numbers = number.to_s.split("")
-    return numbers.uniq.length == numbers.length
+    numbers.uniq.length == numbers.length
 end
 
 puts happy_year(2031)

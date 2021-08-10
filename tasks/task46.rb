@@ -5,7 +5,7 @@ def remove_enemies(people, enemy)
         people.delete(en)
     end
 
-    return people
+    people
 end
 
 print remove_enemies(["Fred"], []) # ["Fred"]

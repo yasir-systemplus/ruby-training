@@ -21,8 +21,7 @@ def unique_abbrev(abrs, words)
         end
     end
 
-    return true
-    
+    true
 end
 
 

@@ -7,8 +7,7 @@ def society_name(names)
         name[0].upcase
     end
 
-    return (names.sort { |a,b| a <=> b }).join
-    
+    (names.sort { |a,b| a <=> b }).join
 end
 
 puts society_name(["Adam", "Sarah", "Malcolm"])

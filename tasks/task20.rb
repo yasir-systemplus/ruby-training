@@ -24,7 +24,7 @@ def returnUnique(numbers)
         end
     end
 
-    return uniq_els
+    uniq_els
 end 
 
 print returnUnique([1, 9, 8, 8, 7, 6, 1, 6]) #[9,7]

@@ -15,7 +15,7 @@ def parityAnalysis(number)
         return true
     end
 
-    return false
+    false
 end
 
 puts parityAnalysis(243) #➞ true

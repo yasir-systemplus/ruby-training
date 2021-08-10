@@ -12,7 +12,7 @@ def is_omnipresent(arrays, el)
         end
     end
 
-    return true
+    true
 end
 
 

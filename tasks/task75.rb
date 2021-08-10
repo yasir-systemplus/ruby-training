@@ -12,7 +12,7 @@ def color_pattern_times(cols)
 		count += 1 if cols[x] != cols[x+1]
 	end
 
-	return count
+	count
 end
 
 

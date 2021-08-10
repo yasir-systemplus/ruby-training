@@ -42,7 +42,7 @@ def cal_scores(games)
     end
     end
 
-    return scores
+    scores
 end
 
 

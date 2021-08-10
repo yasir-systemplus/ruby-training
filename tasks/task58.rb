@@ -22,7 +22,7 @@ def is_smooth(sentence)
         current += 1
     end
 
-    return true
+    true
 end
 
 

@@ -12,7 +12,7 @@ def matrix(x, y, z)
         output.push([z] * y)
     end
 
-    return output
+    output
 end
 
 print matrix(3, 2, 3) #[[3, 3], [3, 3], [3, 3]]

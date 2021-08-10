@@ -23,7 +23,7 @@ def sort_it(arr)
         end
     end
     
-    return arr
+    arr
 end
 
 print sort_it([4, 1, 3]) #➞ [1, 3, 4]

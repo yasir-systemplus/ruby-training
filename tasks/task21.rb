@@ -16,7 +16,7 @@ def get_chunk(array, size)
         end
     end
 
-    return chunks
+    chunks
 end
 
 print get_chunk([1, 2, 3, 4], 2)

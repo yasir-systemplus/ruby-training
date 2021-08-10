@@ -7,7 +7,7 @@
 
 
 def my_sub(a, b)
-	return (0..b).to_a.select {|x| !(0..a).to_a.include?(x) }.length
+	(0..b).to_a.select {|x| !(0..a).to_a.include?(x) }.length
 end
 
 puts my_sub(5, 9) #➞ 4

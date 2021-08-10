@@ -14,8 +14,7 @@ def arrange_students(students)
     students.rotate!
    end
 
-   return students
-    
+   students 
 end
 
 

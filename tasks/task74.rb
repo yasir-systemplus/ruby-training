@@ -23,7 +23,7 @@ def increment_string(txt)
     l = n.length
     n = (n.to_i + 1).to_s.rjust(l, '0')
     
-    return txt + n 
+    txt + n 
 end
 
 

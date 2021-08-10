@@ -14,7 +14,7 @@ def possible_bonus(first, second)
         i += 1
     end
 
-    return false
+    false
 end
 
 

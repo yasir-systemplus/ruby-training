@@ -5,7 +5,7 @@
 #Not finihed
 
 def decode_morse(str)
-  map = {"A":".-","B":"-...","C":"-.-.","D":"-..","E":".",
+  replacer = {"A":".-","B":"-...","C":"-.-.","D":"-..","E":".",
     "F":"..-.","G":"--.","H":"....","I":"..","J":".---",
     "K":"-.-","L":".-..","M":"--","N":"-.","O":"---",
     "P":".--.","Q":"--.-","R":".-.","S":"...","T":"-",
@@ -13,8 +13,8 @@ def decode_morse(str)
      " ":"....."}
 
      
-      words = str.upcase.each_char.map {|l| map[l.to_sym] }
-      words.compact.uniq.count < 2 ? str.split(' ').each_with_object('') {|l, s| s << map.select{|k,v| v == l}.keys.first.to_s} : words.join(' ')
+      words = str.upcase.each_char.map {|l| replacer[l.to_sym] }
+      words.compact.uniq.count < 2 ? str.split(' ').each_with_object('') {|l, s| s << replacer.select{|k,v| v == l}.keys.first.to_s} : words.join(' ')
   
 end
 

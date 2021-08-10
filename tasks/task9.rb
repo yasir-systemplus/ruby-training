@@ -30,7 +30,7 @@ def sun_loungers(beach)
         next_index += 1 
     end
 
-    return count
+    count
     
 end
 

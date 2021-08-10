@@ -9,7 +9,7 @@
 def powerDigitSum(num)
     output = 2 ** num
 
-    return output.to_s.split("").inject(0) do |sum, d|
+    output.to_s.split("").inject(0) do |sum, d|
         sum += d.to_i
     end
 end

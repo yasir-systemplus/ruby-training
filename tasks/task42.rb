@@ -17,7 +17,7 @@ def erase(sentence)
         i = i + 1
     end     
    
-    return ans.join
+    ans.join
 end
 
 puts erase("he##l#hel#llo") #➞ "hello"

@@ -19,7 +19,7 @@ def test_jackpot(result)
         i+=1
     end
 
-    return compare
+    compare
  
 end
 

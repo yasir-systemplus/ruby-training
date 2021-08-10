@@ -13,7 +13,7 @@ def multiplesOf3and5(num)
         end
     end
 
-    return sum 
+    sum 
 end
 
 puts multiplesOf3and5(49) #should return 543.

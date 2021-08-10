@@ -4,7 +4,7 @@
 
 
 def emphasise(title)
-    return title.split(" ").map do |word|
+    title.split(" ").map do |word|
         word.capitalize 
     end
     .join(" ")

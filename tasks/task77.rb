@@ -21,7 +21,7 @@ def highest_pair(cards)
 	
     pairs = cards.select{|x| cards.count(x) >= 2}
 	
-    return [true, pairs.sort_by{|x| hash[x] || x.to_i}[-1]]
+    [true, pairs.sort_by{|x| hash[x] || x.to_i}[-1]]
 end
 
 

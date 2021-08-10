@@ -13,29 +13,21 @@
 
 
 def encrypt(key, message)
-	mapping = {}
+	replacer = {}
     
     for i in (0..key.length/2-1) do
         c1, c2 = key[2*i], key[2*i+1]
-        if !mapping.has_key? c1 then mapping[c1] = c2 end
-        if !mapping.has_key? c2 then mapping[c2] = c1 end
+        unless mapping.has_key?(c1) replacer[c1] = c2 end
+        unless mapping.has_key?(c2) replacer[c2] = c1 end
     end
 
 	ans = ""
 
-	message.split('').each{ |c|
-		if mapping.has_key? c then
-			ans += mapping[c]
-		else
-			ans += c
-		end
-	}
+	message.split('').each{ |c| ans += mapping.has_key?(c) ?  mapping[c]: c }
 
-    return ans
+    ans
 end
 
 puts encrypt("ab c", "abc ab") #➞ "ba cba"
-
 puts encrypt("otorhinolaryngological", "My name is Paul") #➞ "Mr olme hs Plua"
-
 puts encrypt("gaderypoluki", "This is an encrypted message") #➞ "Thks ks gn dncyrotde mdssgad"ypted message") #➞ "Thks ks gn dncyrotde mdssgad"

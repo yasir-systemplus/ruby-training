@@ -12,7 +12,8 @@ def unique_styles(albums)
 	albums.each do |a|
 		a.split(',').each{|x| na.push(x)}
 	end
-	return na.uniq.count
+	
+  na.uniq.count
 end
 
 puts unique_styles([

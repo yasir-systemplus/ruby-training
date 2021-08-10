@@ -16,8 +16,8 @@ def convertBinary(string)
         new_string += ('a'..'m').include?(char) ? "0" : "1"
         count += 1
      end
-    return new_string
-    
+     
+    new_string
 end
 
 puts convertBinary("dsfnas") #➞ "0100000"

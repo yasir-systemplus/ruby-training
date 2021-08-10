@@ -3,14 +3,14 @@
 #------------------------------
 
 def dnaToRna(dna)
-    map = {
+    replacer = {
         "A" => "U", 
         "T" => "A", 
         "G" => "C", 
         "C" => "G", 
     }
 
-    return dna.split("").map { |base| map[base] }
+    dna.split("").map { |base| replacer[base] }
 end
 
 

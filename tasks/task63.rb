@@ -17,7 +17,7 @@ def no_repeated(a)
     end
     i = i+1
     end
-    return a
+    a
 end
 
 

@@ -15,7 +15,7 @@ def sum_missing_numbers(numbers)
         counter += 1
     end
     
-    return sum 
+    sum 
 end 
 
 

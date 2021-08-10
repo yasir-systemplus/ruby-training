@@ -5,13 +5,13 @@
 def expensive_orders(hash, k)
 	expensive = Hash.new
 	
-    hash.each do |key,y|
-		if y > k
-			expensive[key]=y
+    hash.each do |key, value|
+		if value > k
+			expensive[key] = value
 		end
 	end
     
-	return expensive
+	expensive
 end
 
 

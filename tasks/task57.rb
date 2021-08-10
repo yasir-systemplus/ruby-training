@@ -25,7 +25,7 @@ def has_syncopation(music)
         counter += 2
     end
 
-    return true
+    true
 end
 
                   

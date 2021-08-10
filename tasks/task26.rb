@@ -4,7 +4,7 @@
 #------------------------------
 
 def seriesResistance(resistors)
-    return resistors.inject(0) {|sum, current| sum+current} 
+    resistors.inject(0) {|sum, current| sum+current} 
 end
 
 

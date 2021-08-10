@@ -14,7 +14,7 @@ def sum_missing_numbers(numbers)
         end
     end
 
-    return sum 
+    sum 
 end
 
 print sum_missing_numbers([1, 3, 5, 7, 10]) #➞ 29

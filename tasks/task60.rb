@@ -25,7 +25,7 @@ def all_pairs(numbers, target)
         end
     end
 
-    return pairs
+    pairs
 end
 
 

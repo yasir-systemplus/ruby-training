@@ -21,7 +21,7 @@ def dashed(word)
         end
     end
 
-    return dashed_word.join("")
+    dashed_word.join("")
 end
 
 puts dashed("Edabit") #"-E-d-a-b-i-t"

@@ -37,8 +37,7 @@ def two_product(arr, n)
 		
 	end	
 	
-	return nil
-	
+	nil
 end
 
 print two_product([1, 2, 3, 4, 13, 5], 39)# ➞ [3, 13]

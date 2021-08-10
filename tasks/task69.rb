@@ -17,7 +17,7 @@ def map_letters(word)
         letters_hash[letter].push(index)
     end
     
-    return letters_hash
+    letters_hash
 end
 
 

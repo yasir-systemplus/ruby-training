@@ -19,7 +19,7 @@ def verbify(sentence)
         verb << "ed" 
     end
 
-    return verb + " " + sentence[1]
+    verb + " " + sentence[1]
 end
 
 print verbify("cheese burger") #➞ "cheesed burger"

@@ -8,7 +8,7 @@
 #in minutes and seconds that person spends washing their hands.
 
 def wash_hands(a, b)
-    return "#{(a * 21 * b * 30) / 60 } minutes and #{(a * 21 * b * 30) % 60 } seconds"
+    "#{(a * 21 * b * 30) / 60 } minutes and #{(a * 21 * b * 30) % 60 } seconds"
 end
 
 puts wash_hands(8, 7) #➞ "588 minutes and 0 seconds"

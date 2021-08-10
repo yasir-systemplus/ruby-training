@@ -34,8 +34,7 @@ def descriptors(number)
         descriptors_list.unshift("Evil")
     end
 
-    return descriptors_list
-
+    descriptors_list
 end
 
 puts descriptors(40)

@@ -13,7 +13,7 @@ def hashPlusCount(symbols)
         count[el] += 1
     end
 
-    return count.values
+    count.values
 end
 
 

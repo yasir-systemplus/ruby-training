@@ -16,7 +16,7 @@ def increment_to_top(numbers)
         cur_index += 1
     end
     
-    return steps
+    steps
 end 
 
 puts increment_to_top([3, 4, 5]) #3

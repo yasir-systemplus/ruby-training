@@ -5,7 +5,7 @@
 #Given two arguments, return an array which contains these two arguments.
 
 def make_pair(a, b)
-    return [a, b]
+    [a, b]
 end
 
 
