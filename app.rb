@@ -1,5 +1,8 @@
-require_relative "classes/class_methods/book"
+require_relative "classes/class_attr/person"
 
-Book.types.each do |book|
-    print book + " "
-end
+Person.new("Yasir")
+Person.new("Bilal")
+Person.new("Shajie")
+
+
+puts Person.total_person
