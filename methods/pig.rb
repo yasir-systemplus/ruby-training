@@ -2,21 +2,24 @@ def pig_latin(word)
     vowels = ['a', 'e', 'i', 'o','u']
     result = ""
     
-    counter = 0 
-    
-    while counter < word.chars.length
-    index = word.index(char)
+    index = 0 
+    len =  word.chars.length
+
+    while index < len
+      char = word[index]
+      
       if !vowels.include?(char)
         result += char 
       else            
-        result += word[0...index]
+        result = word[index...len] + result 
         break 
       end
+      
+      index += 1
     end
     
     result + "ay"
-    
   end  
     
     
-  puts pig_latin("yasir")
+  puts pig_latin("where")
